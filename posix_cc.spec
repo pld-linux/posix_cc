@@ -2,7 +2,7 @@ Name:		posix_cc
 Summary:	POSIX 1003.2 and 1003.1 2001 C language compilers
 Summary(pl):	Zgodne z POSIX 1003.2 i 1003.1 2001 kompilatory C
 Version:	1.4
-Release:	82
+Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	%{name}-%{version}.tar.bz2
@@ -37,14 +37,15 @@ Autor: Jens Schweikhardt
 %setup -q
 
 %build
+rm -f missing
 %{__aclocal}
-%{__automake}
 %{__autoconf}
-
+%{__automake}
 %configure
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
 %clean
