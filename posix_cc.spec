@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	c92d41039d8057a7479f968360738a96
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	gcc
