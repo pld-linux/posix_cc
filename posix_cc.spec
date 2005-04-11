@@ -26,7 +26,7 @@ Authors: Jens Schweikhardt
 
 %description -l pl
 c89 jest nazw± kompilatora C zgodnego z standardem POSIX 1003.2,
-natomiast c99 jest nazwê kompilatora zgodnego z standardem POSIX
+natomiast c99 jest nazw± kompilatora zgodnego z standardem POSIX
 1003.1 2001. Oba kompilatory s± nak³adkami na gcc, sprawdzaj± czy
 przekazywane opcje odpowiadaj± standardom.
 
@@ -47,7 +47,8 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT install
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf ${RPM_BUILD_ROOT}
