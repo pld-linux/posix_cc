@@ -1,5 +1,5 @@
 Summary:	POSIX 1003.2 and 1003.1 2001 C language compilers
-Summary(pl):	Zgodne z POSIX 1003.2 i 1003.1 2001 kompilatory C
+Summary(pl.UTF-8):   Zgodne z POSIX 1003.2 i 1003.1 2001 kompilatory C
 Name:		posix_cc
 Version:	1.4
 Release:	3
@@ -24,13 +24,13 @@ standards.
 
 Authors: Jens Schweikhardt
 
-%description -l pl
-c89 jest nazw± kompilatora C zgodnego ze standardem POSIX 1003.2,
-natomiast c99 jest nazw± kompilatora zgodnego ze standardem POSIX
-1003.1 2001. Oba kompilatory s± nak³adkami na gcc, sprawdzaj± czy
-przekazywane opcje odpowiadaj± standardom.
+%description -l pl.UTF-8
+c89 jest nazwÄ… kompilatora C zgodnego ze standardem POSIX 1003.2,
+natomiast c99 jest nazwÄ… kompilatora zgodnego ze standardem POSIX
+1003.1 2001. Oba kompilatory sÄ… nakÅ‚adkami na gcc, sprawdzajÄ… czy
+przekazywane opcje odpowiadajÄ… standardom.
 
-Oba akceptuj± wy³±cznie opcje przewidziane w odpowiednich standardach.
+Oba akceptujÄ… wyÅ‚Ä…cznie opcje przewidziane w odpowiednich standardach.
 
 Autor: Jens Schweikhardt
 
