@@ -1,5 +1,5 @@
 Summary:	POSIX 1003.2 and 1003.1 2001 C language compilers
-Summary(pl.UTF-8):   Zgodne z POSIX 1003.2 i 1003.1 2001 kompilatory C
+Summary(pl.UTF-8):	Zgodne z POSIX 1003.2 i 1003.1 2001 kompilatory C
 Name:		posix_cc
 Version:	1.4
 Release:	3
